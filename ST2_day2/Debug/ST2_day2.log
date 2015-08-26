@@ -1,0 +1,22 @@
+﻿Build started 2015-08-19 오전 2:37:17.
+Project "C:\Users\Juni\documents\visual studio 2013\Projects\ST2\ST2_day2\ST2_day2.vcxproj" on node 2 (Build target(s)).
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "1_템플릿기본4.cpp"
+  1_템플릿기본4.cpp
+c:\users\juni\documents\visual studio 2013\projects\st2\st2_day2\1_템플릿기본4.cpp(19): error C2100: illegal indirection
+          c:\users\juni\documents\visual studio 2013\projects\st2\st2_day2\1_템플릿기본4.cpp(18) : while compiling class template member function 'void AAA<int>::foo(T)'
+          with
+          [
+              T=int
+          ]
+          c:\users\juni\documents\visual studio 2013\projects\st2\st2_day2\1_템플릿기본4.cpp(25) : see reference to function template instantiation 'void AAA<int>::foo(T)' being compiled
+          with
+          [
+              T=int
+          ]
+          c:\users\juni\documents\visual studio 2013\projects\st2\st2_day2\1_템플릿기본4.cpp(24) : see reference to class template instantiation 'AAA<int>' being compiled
+Done Building Project "C:\Users\Juni\documents\visual studio 2013\Projects\ST2\ST2_day2\ST2_day2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.12
